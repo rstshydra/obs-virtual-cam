@@ -136,8 +136,8 @@ private:
 	//obs format related
 	bool use_obs_format_init = false;
 	int obs_format = 0;
-	uint32_t obs_width = 720;
-	uint32_t obs_height = 960;
+	uint32_t obs_width = 3024;
+	uint32_t obs_height = 4032;
 	uint64_t obs_frame_time = 333333;
 	dst_scale_context scale_info;
 };

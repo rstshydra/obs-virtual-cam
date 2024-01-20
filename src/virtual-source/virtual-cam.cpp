@@ -241,7 +241,7 @@ bool CVCamStream::ListSupportFormat()
 	if (format_list.size() > 0)
 		format_list.clear();
 
-	format_list.push_back(struct format(720, 960, 333333));
+	format_list.push_back(struct format(3024, 4032, 333333));
 	return true;
 }
 
